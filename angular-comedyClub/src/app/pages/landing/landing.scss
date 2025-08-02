@@ -1,10 +1,30 @@
 .body-container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction:row;
+    flex: 1 1;
+    flex-wrap: wrap;
+
     .title{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         padding: 8px 10px;
     }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle-container{
+        display: flex;
+        flex-direction: row;
+        .side-info{
+            display: flex;
+            flex-direction: column;
+        }
+        .map{
+            display: flex   ;
+            flex-direction: column;
+        }
+    }
 }
+
+    
