@@ -1,0 +1,10 @@
+.body-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .title{
+        display: flex;
+        flex-direction: column;
+        padding: 8px 10px;
+    }
+}
